@@ -2,12 +2,23 @@
 
 Este documento tem como objetivo explicar de forma clara e direta como fazer uma nova contribuição para o projeto.
 
+### Faça um fork do projeto
+
+Para você criar uma cópia do projeto para o seu perfil do Github, basta você clicar no botão "Fork" localizado no canto superior direito da [página do projeto](https://github.com/natahouse/hacktoberfest-2020).
+
+![fork](https://raw.githubusercontent.com/natahouse/hacktoberfest-2020/main/assets/images/fork.png)
+
+Ao finalizar você será redirecionado para a página do seu novo repositório criado a partir do nosso. Assim você pode copiar a URL do projeto clicando no botão verde "Code" copiar a url na sessão "Clone".
+
+![clone](https://raw.githubusercontent.com/natahouse/hacktoberfest-2020/main/assets/images/clone.png)
+
+
 ### Baixando o projeto
 
-Você pode clonar o projeto com o seguinte comando:
+Lembre-se que para contribuir você deve clonar o projeto que está no seu perfil, e não o da nata.house! Você pode clonar o projeto com o seguinte comando:
 
 ```sh
-git clone https://github.com/natahouse/hacktoberfest-2020.git
+git clone <URL_DO_PROJETO_DO_SEU_PERFIL>
 ```
 
 E navegar para a pasta do projeto:
@@ -71,3 +82,5 @@ const data = [
 ### Seja criativo!
 
 Preencha com suas informações, adicione imagens, gifs, links para suas redes sociais, seja criativo!
+Após isso, basta abrir seu pull request que iremos avaliá-lo assim que possível!
+
