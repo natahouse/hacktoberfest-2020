@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../font/OpenSans-Regular.ttf') format('ttf'),
+    url('../font/OpenSans-Light.ttf') format('ttf'),
+    url('../font/OpenSans-Bold.ttf') format('ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: rgba(25, 61, 93);
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.github-button {
+  display: inline-block;
+  background: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.github-button img {
+  max-width: 70px;
+  vertical-align: middle;
+}
+
+.hero {
+  width: 100%;
+  padding-bottom: 30px;
+  background: url(/assets/images/hacktoberfest-nh-2019.JPG);
+  background-size: cover;
+  position: relative;
+  background-position: 0px 65%;
+}
+
+.hero::before {
+  content: '';
+  background: linear-gradient(
+    to bottom,
+    rgba(25, 61, 93, 0.7) 0%,
+    rgba(25, 61, 93) 80%
+  );
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.hero .container {
+  z-index: 2;
+  position: relative;
+}
+
+.hero .content {
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 40px;
+}
+
+.hero .content h1 {
+  width: 70%;
+  margin-top: 100px;
+}
+
+header {
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  width: 350px;
+}
+
+.hero .hero-image {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  background: #072541;
+  padding: 45px 0;
+  position: relative;
+}
+
+main .container h1 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.people-list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
+  column-gap: 30px;
+  row-gap: 30px;
+  padding-top: 70px;
+  margin-bottom: 200px;
+}
+
+.people-list .card-container {
+  height: 400px;
+  background: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.people-list .card-container span {
+  display: block;
+  margin: 0.5rem 0 1rem;
+}
+
+.people-list .card-image {
+  width: 200px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+footer {
+  padding: 70px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .hack-image {
+  width: 350px;
+}
+
+footer .nh-image {
+  width: 350px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .github-button {
+    transform: scale(0.7);
+  }
+
+  .hero .hero-image {
+    max-width: 100%;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .hero .content h1 {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.spinner {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,17 @@
+{
+  "name": "nh-hacktoberfest-2020",
+  "version": "1.0.0",
+  "description": "Beginner friendly hacktoberfest 2020 repository for open source learning!",
+  "main": "index.js",
+  "repository": "git@github.com:natahouse/hacktoberfest-2020.git",
+  "author": "Arthur Lima <arthur-esc@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server",
+    "dev": "firebase serve --only hosting"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
