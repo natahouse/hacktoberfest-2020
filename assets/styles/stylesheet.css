@@ -123,6 +123,11 @@ main .container h1 {
   border-radius: 20px;
 }
 
+.people-list .card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .people-list .card-container span {
   display: block;
   margin: 0.5rem 0 1rem;
@@ -145,11 +150,11 @@ footer .container {
 }
 
 footer .hack-image {
-  width: 350px;
+  width: 320px;
 }
 
 footer .nh-image {
-  width: 350px;
+  width: 320px;
 }
 
 @media (max-width: 768px) {

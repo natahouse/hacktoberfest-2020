@@ -5,7 +5,7 @@ const data = [
     title: 'Fábrica de software',
     description:
       'Estamos muito felizes em reunir essa moçada pra contribuir com a comunidade open-source o/.',
-    folderUrl: 'natahouse'
+    folderUrl: 'TEMPLATE'
   },
 ];
 
