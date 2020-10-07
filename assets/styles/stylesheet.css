@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -28,6 +28,7 @@ body {
   background: black;
   padding: 5px 10px;
   border-radius: 5px;
+  text-decoration: none;
 }
 .github-button img {
   max-width: 70px;
