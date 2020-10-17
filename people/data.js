@@ -10,7 +10,7 @@ const data = [
   {
     name: 'Vinicius Oliveira',
     image: '/people/vinicius-oliveira/vinicius.jpg',
-    title: 'Desenvolvedor Web',
+    title: 'Desenvolvedor Web na Take',
     description:
       'Front end é tudo o/',
     folderUrl: 'vinicius-oliveira'
