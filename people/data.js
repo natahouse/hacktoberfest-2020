@@ -8,6 +8,14 @@ const data = [
     folderUrl: 'TEMPLATE'
   },
   {
+    name: 'Ana Luíza Reis',
+    image: 'https://avatars3.githubusercontent.com/u/44124220?s=460&u=ee600f44f31a89e312b6c795d877888fc320d7c8&v=4',
+    title: 'Segundo periodo de ADS',
+    description:
+      'Estou muito feliz de participar do meu segundo Haktoberfest na Nata!',
+    folderUrl: 'Ana-Luiza-Reis'
+  },
+  {
     name: 'Haryel Ramalho',
     image: 'https://avatars1.githubusercontent.com/u/38708454?s=460&u=7c4bb01f4c68d9253898ee4cffea025cec04d73c&v=4',
     title: 'FullStack Developer',
