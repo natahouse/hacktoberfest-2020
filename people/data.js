@@ -16,6 +16,22 @@ const data = [
     folderUrl: 'Ana-Luiza-Reis'
   },
   {
+    name: 'Haryel Ramalho',
+    image: 'https://avatars1.githubusercontent.com/u/38708454?s=460&u=7c4bb01f4c68d9253898ee4cffea025cec04d73c&v=4',
+    title: 'FullStack Developer',
+    description:
+      'Graduating in Computer Science - UESC • Former Vice President of the Junior Computer Association - TecnoJr • Web Developer focused on backend.',
+    folderUrl: 'haryel-ramalho'
+  },
+  {
+    name: 'Pedro Emanuel',
+    image: '/people/Pedro-Emanuel/profile.jpeg',
+    title: 'Desenvolvedor Front End',
+    description:
+      'Como Mailto Gai dizia se não nasci com um dom natural, tenho que me esforçar 500 vezes mais! ',
+    folderUrl: 'Pedro-Emanuel'
+  },
+  {
     name: 'Lucca Miranda',
     image: '/people/lucca/profile.jpg',
     title: 'Estudante e estagiario de frontend',
