@@ -7,6 +7,14 @@ const data = [
       'Estamos muito felizes em reunir essa moçada pra contribuir com a comunidade open-source o/.',
     folderUrl: 'TEMPLATE'
   },
+  { 
+    name: 'Andressa Gontijo',
+    image: '/people/ANDRESSA_GONTIJ0/profile.jpeg',
+    title: 'Estudande de Engenharia de Software',
+    description:
+      'Estamos muito felizes em reunir essa moçada pra contribuir com a comunidade open-source o/.',
+    folderUrl: 'ANDRESSA_GONTIJO'
+  },
   {
     name: 'João Artur',
     image: '/people/joaoartur/profile.jpeg',
