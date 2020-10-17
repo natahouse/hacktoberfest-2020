@@ -8,6 +8,14 @@ const data = [
     folderUrl: 'TEMPLATE'
   },
   {
+    name: 'Vinicius Oliveira',
+    image: '/people/vinicius-oliveira/vinicius.jpg',
+    title: 'Desenvolvedor Web na Take',
+    description:
+      'Front end é tudo o/',
+    folderUrl: 'vinicius-oliveira'
+  },
+  {
     name: 'João Benthin',
     image: '/people/joaobenthin/profile.jpg',
     title: 'Full Stack Developer',
