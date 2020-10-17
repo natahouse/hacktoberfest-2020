@@ -1,0 +1,111 @@
+.hero {
+  min-height: 250px;
+  position: relative;
+  background-image: url('capa.jpeg');
+}
+.hero::before {
+  background: linear-gradient(
+    to bottom,
+    rgba(25, 61, 93, 0.7) 50%,
+    rgba(25, 61, 93) 100%
+  );
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+}
+
+.profile-image {
+  width: 300px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.2s ease-in-out;
+}
+
+.profile-image:hover {
+  transform: translate(-47%, -10px);
+}
+.profile-image:hover + .profile-hover {
+  transform: translate(-53%, 10px);
+}
+
+.profile-hover {
+  content: '';
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.2s ease-in-out;
+  background-color: #93c2db;
+  z-index: 3;
+}
+
+main .container {
+  padding-top: 180px;
+}
+
+main .description {
+  color: #93c2db;
+  line-height: 1.6;
+  margin: 40px auto;
+  font-size: 1.250rem;
+  max-width: 800px;
+  text-align: center;
+}
+
+main .container h1 {
+  font-size: 2.5rem;
+}
+
+main .container h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 90px;
+}
+
+main .items-list {
+  list-style: none;
+  max-width: 600px;
+  color: white;
+  font-size: 1.250rem;
+  margin: 30px auto;
+}
+
+main .items-list li {
+  margin-bottom: 10px;
+  color: #93c2db;
+}
+
+main .items-list strong {
+  color: white;
+  margin-right: 10px;
+}
+
+main .social {
+  margin: 90px;
+  text-align: center;
+}
+main .social i {
+  color: white;
+  font-size: 4rem;
+  margin: 5px 10px;
+  transition: 0.2s ease-in-out;
+}
+main .social i:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 420px) {
+  main .social {
+    margin: 10px;
+  }
+}
