@@ -8,6 +8,14 @@ const data = [
     folderUrl: 'TEMPLATE'
   },
   {
+    name: 'Lucca Miranda',
+    image: '/people/lucca/profile.jpg',
+    title: 'Estudante e estagiario de frontend',
+    description:
+      'Sou amante de repteis, musica e codigo =).',
+    folderUrl: 'lucca',
+  },
+  {
     name: 'Felipe Souza',
     image: '/people/felipe-souza/felipe-image.jpg',
     title: 'Analista de Tecnologia no SENAI/MG',
