@@ -17,7 +17,7 @@ function populatePeopleList() {
         </div>
       </a>
     `
-  })
+  }).join('\n');
 
   peopleList.innerHTML = elements
 }
