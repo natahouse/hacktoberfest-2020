@@ -33,7 +33,7 @@ const data = [
   },
   { 
     name: 'Andressa Gontijo',
-    image: '/people/ANDRESSA_GONTIJ0/profile.jpeg',
+    image: '/people/ANDRESSA_GONTIJO/profile.jpeg',
     title: 'Estudande de Engenharia de Software',
     description:
       'Estamos muito felizes em reunir essa moçada pra contribuir com a comunidade open-source o/.',
