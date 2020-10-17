@@ -7,9 +7,7 @@ const data = [
       'Estamos muito felizes em reunir essa moçada pra contribuir com a comunidade open-source o/.',
     folderUrl: 'TEMPLATE'
   },
-];
-const data = [
-  {
+  { 
     name: 'Andressa Gontijo',
     image: '/people/ANDRESSA_GONTIJ0/profile.jpeg',
     title: 'Estudande de Engenharia de Software',
