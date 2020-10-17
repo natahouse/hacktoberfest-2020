@@ -7,6 +7,14 @@ const data = [
       'Estamos muito felizes em reunir essa moçada pra contribuir com a comunidade open-source o/.',
     folderUrl: 'TEMPLATE'
   },
+  {
+    name: 'Caio Magalhães',
+    image: '/people/caio-magalhaes/profile.png',
+    title: 'Full Stack Developer',
+    description:
+      'Estudante de desenvolvimento full stack na Trybe, viciado em front-end!, e engenheiro aeronáutico.',
+    folderUrl: 'caio-magalhaes'
+  },
 ];
 
 export default data
