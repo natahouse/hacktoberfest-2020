@@ -8,6 +8,14 @@ const data = [
     folderUrl: 'TEMPLATE'
   },
   {
+    name: 'João Artur',
+    image: '/people/joaoartur/profile.jpeg',
+    title: 'Fala Dev!',
+    description:
+      'Engenheiro, entusiasta das tecnologias para web e tentando ser atleta nas horas vagas!',
+    folderUrl: 'joaoartur'
+  },
+  {
     name: 'Ana Luíza Reis',
     image: 'https://avatars3.githubusercontent.com/u/44124220?s=460&u=ee600f44f31a89e312b6c795d877888fc320d7c8&v=4',
     title: 'Segundo periodo de ADS',
