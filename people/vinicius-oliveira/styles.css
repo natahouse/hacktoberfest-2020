@@ -1,0 +1,104 @@
+.hero {
+  min-height: 250px;
+}
+
+.hero::before {
+  background: linear-gradient( to bottom, rgba(25, 61, 93, 0.7) 0%, rgba(0, 105, 255, 0.4) 80%);
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+}
+
+.profile-image {
+  width: 300px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+main {
+  background: #f1f7fa;
+}
+
+footer {
+  background: #0069ff2b;
+}
+
+main .container {
+  padding-top: 180px;
+}
+
+main .description {
+  color: #93c2db;
+  line-height: 1.6;
+  margin: 40px auto;
+  font-size: 1.250rem;
+  max-width: 800px;
+  text-align: center;
+}
+
+main .description span {
+  padding: 0px 2px;
+  background:#93c2db;
+  color: #f1f7fa;
+}
+
+main .description i {
+  margin-left: 4px;
+  color: #15536b;
+}
+
+main .container h1 {
+  font-size: 2.5rem;
+  color: #15536b;
+}
+
+main .container p {
+  color: #75aac5;
+}
+
+main .container h2 {
+  color: #15536b;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 90px;
+}
+
+main .items-list {
+  list-style: none;
+  max-width: 600px;
+  color: #15536b;
+  font-size: 1.250rem;
+  margin: 30px auto;
+}
+
+main .items-list li {
+  margin-bottom: 10px;
+  color: #93c2db;
+}
+
+main .items-list strong {
+  color: #15536b;
+  margin-right: 10px;
+}
+
+main .social {
+  margin: 90px;
+  text-align: center;
+}
+main .social i {
+  color: #93c2db;
+  font-size: 4rem;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+main .social i:hover {
+  transform: scale(1.1);
+  color: #5fafda;
+}

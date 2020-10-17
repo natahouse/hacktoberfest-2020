@@ -7,6 +7,14 @@ const data = [
       'Estamos muito felizes em reunir essa moçada pra contribuir com a comunidade open-source o/.',
     folderUrl: 'TEMPLATE'
   },
+  {
+    name: 'Vinicius Oliveira',
+    image: '/people/vinicius-oliveira/vinicius.jpg',
+    title: 'Desenvolvedor Web',
+    description:
+      'Front end é tudo o/',
+    folderUrl: 'vinicius-oliveira'
+  },
 ];
 
 export default data
