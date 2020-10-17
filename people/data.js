@@ -8,6 +8,14 @@ const data = [
     folderUrl: 'TEMPLATE'
   },
   {
+    name: 'Pedro Emanuel',
+    image: '/people/Pedro-Emanuel/profile.jpeg',
+    title: 'Desenvolvedor Front End',
+    description:
+      'Como Mailto Gai dizia se não nasci com um dom natural, tenho que me esforçar 500 vezes mais! ',
+    folderUrl: 'Pedro-Emanuel'
+  },
+  {
     name: 'Lucca Miranda',
     image: '/people/lucca/profile.jpg',
     title: 'Estudante e estagiario de frontend',
