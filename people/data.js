@@ -8,6 +8,14 @@ const data = [
     folderUrl: 'TEMPLATE'
   },
   {
+    name: 'João Benthin',
+    image: '/people/joaobenthin/profile.jpg',
+    title: 'Full Stack Developer',
+    description:
+      'Programador apaixonado por tecnologia, aprendendo a empreender e dançarino nas horas vagas',
+    folderUrl: 'joaobenthin'
+  },
+  {
     name: 'Arthur Lima',
     image: '/people/arthurlima/profile.jpeg',
     title: 'Desenvolvedor de software',
