@@ -8,6 +8,14 @@ const data = [
     folderUrl: 'TEMPLATE'
   },
   {
+    name: 'Felipe Souza',
+    image: '/people/felipe-souza/felipe-image.jpg',
+    title: 'Analista de Tecnologia no SENAI/MG',
+    description:
+      'Atuo no SENAI com foco em transformação para Indústria 4.0. Atualmente, desenvolvendo para web com tecnologias em JS.',
+    folderUrl: 'felipe-souza'
+  },
+  {
     name: 'Caio Magalhães',
     image: '/people/caio-magalhaes/profile.png',
     title: 'Full Stack Developer',
