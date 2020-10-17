@@ -1,0 +1,107 @@
+.hero {
+  min-height: 250px;
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes profileImgAnim {
+  from {
+    transform: scale(0.3);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.profile-image {
+  width: 300px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  bottom: -50%;
+  left: calc(50% - 150px);
+  animation: profileImgAnim 0.7s ease-in-out forwards;
+}
+
+.profile-image:hover {
+  box-shadow: 0 16px 24px 2px rgba(0 , 0 , 0 , 0.14),
+    0 6px 30px 5px rgba(0 , 0 , 0 , 0.12), 0 8px 10px -7px rgba(0 , 0 , 0 , 0.2);
+}
+
+main .container {
+  padding-top: 180px;
+}
+
+main .description {
+  color: #93c2db;
+  line-height: 1.6;
+  margin: 40px auto;
+  font-size: 1.25rem;
+  max-width: 800px;
+  text-align: center;
+}
+
+main .container h1 {
+  font-size: 2.5rem;
+}
+
+main .container h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 90px;
+}
+
+main .items-list {
+  list-style: none;
+  max-width: 600px;
+  color: white;
+  font-size: 1.25rem;
+  margin: 30px auto;
+}
+
+main .items-list li {
+  margin-bottom: 10px;
+  color: #93c2db;
+}
+
+main .items-list strong {
+  color: white;
+  margin-right: 10px;
+}
+
+main .social {
+  margin: 90px;
+  text-align: center;
+}
+main .social i {
+  color: white;
+  font-size: 3rem;
+  margin: 0 10px;
+}
+
+main .social .fa-linkedin{
+  color: rgb(13 119 181);
+}
+
+main .social .fa-instagram-square{
+  color: rgb(199 84 156);
+}
+
+main .social .fa-github-square{
+  color: rgb(98 187 80);
+}
+
+
+.z-depth-2 {
+  box-shadow: 0 4px 5px 0 rgba(0 , 0 , 0 , 0.14), 0 1px 10px 0 rgba(0 , 0 , 0 , 0.12),
+    0 2px 4px -1px rgba(0 , 0 , 0 , 0.3);
+}
+
+.z-depth-3 {
+  box-shadow: 0 8px 17px 2px rgba(0 , 0 , 0 , 0.14),
+    0 3px 14px 2px rgba(0 , 0 , 0 , 0.12),0 5px 5px -3px rgba(0 , 0 , 0 , 0.2);
+}
